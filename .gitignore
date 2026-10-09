@@ -1,0 +1,46 @@
+# ── 编译产物 ──
+build/
+dist/
+out/
+target/
+bin/
+obj/
+*.o
+*.obj
+*.class
+*.pyc
+*.exe
+*.dll
+*.jar
+*.war
+
+# ── 依赖目录 ──
+node_modules/
+venv/
+.venv/
+__pycache__/
+
+# ── 密钥与本地配置（不上传密钥） ──
+.env
+*.env
+*.key
+*.pem
+secrets.*
+config.local.*
+application-local.properties
+local.settings.json
+
+# ── IDE / 编辑器 ──
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# ── 操作系统 ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── 日志与临时文件 ──
+*.log
+*.tmp
